@@ -33,7 +33,7 @@ variable "s3_bucket_name" {
   type        = string
 }
 
-variable "AWS_DEFAULT_REGION" {
-  description = "La región predeterminada de AWS"
-  type        = string
-}
+# variable "AWS_DEFAULT_REGION" {
+#   description = "La región predeterminada de AWS"
+#   type        = string
+# }
