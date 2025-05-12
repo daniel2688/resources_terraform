@@ -38,3 +38,20 @@ variable "s3_bucket_name" {
 #   type        = string
 #   default     = "us-east-1"
 # }
+
+variable "AWS_SECRET_KEY" {
+  description = "La clave secreta de AWS"
+  type        = string
+  sensitive   = true
+}
+
+variable "AWS_ACCESS_KEY_ID" {
+  description = "La clave de acceso de AWS"
+  type        = string
+  sensitive   = true
+}
+
+variable "AWS_DEFAULT_REGION" {
+  description = "La región predeterminada de AWS"
+  type        = string
+}
