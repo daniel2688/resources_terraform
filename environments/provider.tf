@@ -22,7 +22,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" # Define la región de AWS donde se desplegarán los recursos (en este caso, "us-east-1").
+#   region = "us-east-1" # Define la región de AWS donde se desplegarán los recursos (en este caso, "us-east-1").
   # profile = var.tags["profile"] # Indica el perfil de AWS a usar. Este perfil debe estar configurado previamente en tu archivo de credenciales de AWS (~/.aws/credentials).
   #   alias   = "virginia"          # Define un alias para el proveedor. Este alias se usará para referenciar este proveedor en otros recursos.
 

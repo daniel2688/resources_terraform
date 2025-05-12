@@ -32,3 +32,8 @@ variable "s3_bucket_name" {
   description = "Nombre del bucket S3"
   type        = string
 }
+
+variable "AWS_DEFAULT_REGION" {
+  description = "La región predeterminada de AWS"
+  type        = string
+}
