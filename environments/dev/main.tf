@@ -6,7 +6,7 @@ module "frontend_server" {
   key_name           = var.frontend_key_name
   subnet_id          = var.public_subnet_id
   security_group_ids = [var.frontend_sg_id]
-  tags               = var.common_tags
+  tags               = var.tags
   name               = "frontend-ec2"
 }
 
@@ -27,6 +27,6 @@ module "s3_bucket" {
   source = "../../modules/s3" # Ruta al módulo child
 
   bucket_name = var.s3_bucket_name
-  tags        = var.common_tags
+  tags        = var.tags
 
 }

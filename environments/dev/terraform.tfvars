@@ -4,3 +4,6 @@ frontend_key_name      = "MyAWSKey"
 public_subnet_id       = "subnet-04d1c2e5ff54d3aa2"
 frontend_sg_id         = "sg-0805e3125cdb75f1e"
 s3_bucket_name         = "mi-bucket-terraform-danicor-2688"
+tags = {
+  "createdby" = "terraform"
+}

@@ -23,16 +23,16 @@ variable "frontend_sg_id" {
   type        = string
 }
 
-variable "common_tags" {
-  description = "Etiquetas comunes"
-  type        = map(string)
-}
-
 variable "s3_bucket_name" {
   description = "Nombre del bucket S3"
   type        = string
 }
 
+variable "tags" {
+  description = "Mapa de etiquetas"
+  type        = map(string)
+  
+}
 # variable "AWS_DEFAULT_REGION" {
 #   description = "La región predeterminada de AWS"
 #   type        = string
