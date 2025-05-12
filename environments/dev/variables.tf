@@ -37,3 +37,33 @@ variable "tags" {
 #   description = "La región predeterminada de AWS"
 #   type        = string
 # }
+
+variable "backend_ami" {
+  description = "AMI para backend"
+  type        = string
+  
+}
+
+variable "backend_instance_type" {
+  description = "Tipo de instancia EC2 para backend"
+  type        = string
+  
+}
+
+variable "backend_key_name" {
+  description = "Key pair para backend"
+  type        = string
+  
+}
+
+variable "private_subnet_id" {
+  description = "Subnet privada"
+  type        = string
+  
+}
+
+variable "backend_sg_id" {
+  description = "Security group para backend"
+  type        = string
+  
+}

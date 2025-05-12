@@ -7,3 +7,9 @@ s3_bucket_name         = "mi-bucket-terraform-danicor-2688"
 tags = {
   "createdby" = "terraform"
 }
+
+backend_ami           = "ami-097947612b141c026"
+backend_instance_type = "t2.micro"
+backend_key_name      = "MyAWSKey"
+private_subnet_id      = "subnet-01ab47a3aceb1d530"
+backend_sg_id         = "sg-0b5e3125cdb75f1e"
