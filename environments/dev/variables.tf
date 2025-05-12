@@ -32,3 +32,9 @@ variable "s3_bucket_name" {
   description = "Nombre del bucket S3"
   type        = string
 }
+
+# variable "region" {
+#   description = "Región de AWS"
+#   type        = string
+#   default     = "us-east-1"
+# }
